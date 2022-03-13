@@ -1,0 +1,78 @@
+p{
+            color:khaki;
+            font-size:20px;
+        }
+        img{
+            border: 8px solid powderblue;
+       
+        }
+
+body{
+    background-color:whitesmoke;
+    padding: 20px;
+    position:absolute;
+    margin:0pt;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:blueviolet;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.body_img{
+    color:cadetblue;
+    position: relative;
+}
+
+.body_img p{
+    color:black;
+    font-size: 25px;
+    font-family: fantasy;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:initial;
+    font-family: sans-serif;
+    font-size: 20px;
+    color:brown;
+    background-color:lightblue;
+    font-weight: 300;
+    padding:-70px;
+
+}
+
+.grid img{
+border: 10px solid indianred;
+border-radius: 70px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 9px;
+}
+
+.origami{
+border-radius: 30px;
+display: flex;
+flex-wrap:wrap;
+padding: 30px;
+margin: 20px;
+background-color:lightcoral;
+width: 300px;
+font-weight: 400;
+font-family:Arial, Helvetica, sans-serif;
+}
